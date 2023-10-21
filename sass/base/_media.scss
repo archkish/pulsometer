@@ -1,0 +1,163 @@
+@media (max-width: 991px) {
+  .header {
+    padding: 0 50px;
+  }
+
+  .promo {
+    &__wrapper {
+        padding-right: 50px;
+    }
+  }
+  .advantages {
+    &__wrapper {
+        padding: 0 20px 0 20px;
+    }
+    &__item {
+        width: 30%;
+    }
+    &__text {
+        font-size: 13px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 0 50px;
+    &__official {
+      display: none;
+    }
+  }
+
+  .promo {
+    padding-bottom: 60px;
+    &__wrapper {
+      padding-right: 50px;
+    }
+    &__header {
+      font-size: 30px;
+    }
+    &__subheader {
+      font-size: 15px;
+      margin-top: 10px;
+    }
+    &__icons {
+      margin-top: 50px;
+    }
+  }
+  .advantages {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    &__icon {
+        margin-right: 25px;
+        margin-top: 5px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 450px;
+        margin-top: 20px;
+    }
+
+    &__text {
+        margin-top: 15px;
+        text-align: left;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 50%;
+        }
+        &__contacts {
+            width: 45%;
+        }
+    }
+    .promo {
+        
+        &__wrapper {
+            
+            padding-right: 25px;
+        }
+        &__icons {
+            // margin-top: 30px;
+            width: 330px;
+        }
+        &__icon {
+            margin-top: 20px;
+            width: 90px;
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 12px;
+        }
+    }
+    .button_main {
+        // margin-top: 50px;
+        width: 200px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .advantages {
+        &__item {
+            margin-top: 35px;
+            width: 400px;
+        }
+        &__text {
+            margin-top: 10px;
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    .header {
+         &__logo {
+             width: 55%;
+         }
+        &__contacts {
+            width: 45%;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+        .button {
+            width: 80%;
+            margin-top: 5px;
+            font-size: 10px;
+            padding: 3px 0 3px 0;
+        }
+    }
+}
+
+
+// @media (max-width: 320px) {
+//     .header {
+//         display: flex;
+//         flex-direction: column;
+
+//         &__logo {
+
+//         }
+//         &__phone {
+//             display: block;
+//             margin: 0 auto;
+//             font-size: 14px;
+//         }
+//         .button {
+//             margin-top: 10px;
+//         }
+//         &__contacts {
+//             margin-top: 15px;
+//         }
+       
+//     }
+
+// }
